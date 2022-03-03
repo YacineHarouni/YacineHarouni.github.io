@@ -1,0 +1,119 @@
+@import url(Style/box1.css);
+@import url(Style/button_offer.css);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url(Style/colums.css);
+
+
+h1{
+	font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; 
+}
+
+h2{
+	font-family: 'Open Sans', sans-serif; font-size: 20px; font-weight: 300; line-height: 32px; margin: 0 0 72px; text-align: center;
+}
+
+p{
+	font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word;
+}
+
+
+.List1{
+	color: #685206; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px; text-align: justify; text-justify: inter-word;
+}
+
+.Title{
+	color: #141c3a;
+	font-size: 2.5rem;
+}
+
+.presentation-image {
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+.presentation-image img {
+	max-width: 100%;
+	height: auto;	
+}
+
+
+/SECTION PROJETS\
+
+
+.projects-section {
+	margin-top: 6%;
+}
+.projects-section h1 {
+	text-transform: uppercase;
+	font-size: 3vw;
+}
+.projects-section .projects {
+	display: flex;
+	flex-wrap: wrap;
+}
+.projects-section .project {
+	margin-right: 20px;
+	max-width: 195px;
+}
+.projects-section .project h4 {
+	margin: 0;
+}
+.projects-section .project .description {
+	font-size: 15px;
+}
+.projects-section .project .dates {
+	font-size: 15px;
+	color: rgb(145, 145, 145);
+}
+.projects{
+	display: flex;
+	justify-content: space-around;
+}
+
+.footer-basic {
+  padding:40px 0;
+  background-color:#ffffff;
+  color:#4b4c4d;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+
+
+.footer-basic .social > a:hover {
+  opacity:0.9;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+

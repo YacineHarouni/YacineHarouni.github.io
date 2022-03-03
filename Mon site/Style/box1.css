@@ -1,0 +1,39 @@
+.Background_début {
+	border: 15px;
+	padding-top: 144px;
+	padding-bottom: 250px;
+	padding-left: 24px;
+	background-color: #1C3FEC;
+	opacity: 1;
+	box-sizing: content-box;
+	text-align: center;
+}
+
+.Background_début_text{
+	color: white;
+	margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.h2_style_box_début{
+	width: 681px;
+	height: 1px;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+    display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+	.h2_style_box_début {
+		width: 100%;
+	}
+}

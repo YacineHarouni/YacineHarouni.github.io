@@ -1,0 +1,84 @@
+.Columns {
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Playfair Display', serif;
+}
+
+.softskills_title{
+	color: #1C3FEC
+}
+
+.Langues_title{
+	color: #1C3FEC
+}
+
+.outils_titre{
+	color: #1C3FEC;
+}
+
+.softskills_projects_title{
+	color: #1C3FEC
+}
+
+@media screen and (max-width: 600px) {
+	.Columns{
+		display: flex;
+		flex-direction: Column;
+	}
+
+.Hardskills{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 40px;
+}
+
+.softskills{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 40px;
+		margin-top: 25px;
+}
+
+.Langues_title{
+	display: flex;
+	justify-content: center;
+	color: #1C3FEC
+}
+
+.Langues{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+
+.outils{
+	display: flex;
+	justify-content: center;
+}
+
+.outils_titre{
+	display: flex;
+	justify-content: center;
+	color: #1C3FEC;
+}
+
+.softskills_title{
+	display: flex;
+	justify-content: center;
+	color: #1C3FEC
+}
+
+.softskills_list{
+	display: flex;
+	justify-content: center
+}
+
+.softskills_projects_title{
+	display: flex;
+	justify-content: center
+}
+
+.softskills_projects{
+	display: flex;
+	justify-content: center
+}
